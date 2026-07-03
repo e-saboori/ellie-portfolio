@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ellie · Adventure &amp; Affection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=DM+Sans:opsz,wght@9..40,400..700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="nav__inner">
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#world">My World</a>
+      <a href="#fun">Fun Facts</a>
+      <a href="#values">Values</a>
+      <a href="#flags">Green Flags</a>
+    </nav>
+    <a href="#connect" class="btn btn--solid nav__cta">Let’s Meet</a>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="about">
+  <div class="hero__grid">
+    <div class="hero__photo">
+      <img src="assets/profile.jpg" alt="Ellie smiling" />
+    </div>
+
+    <div class="hero__intro">
+      <h1 class="display">Hi, I’m<br><span class="display__accent">Ellie.</span>
+        <svg class="spark" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+          <path d="M17 2v9M17 23v9M2 17h9M23 17h9M6 6l6 6M22 22l6 6M28 6l-6 6M12 22l-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </h1>
+      <p class="hero__sub">I collect passport stamps, espresso shots, and
+        <em>ridiculously good conversations.</em></p>
+      <span class="rule"></span>
+      <p class="hero__body">I’m looking for someone to build an exciting, peaceful, adventurous
+        life with. Equal parts curiosity, kindness, laughter, and emotional maturity.</p>
+    </div>
+
+    <aside class="facts">
+      <h2 class="facts__title">Quick Facts</h2>
+      <ul class="facts__list">
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span class="facts__k">Age</span><span class="facts__v">36</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="facts__k">Height</span><span class="facts__v">5′7″ (170 cm)</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <span class="facts__k">Lives in</span><span class="facts__v">Toronto</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 7V5.5A1.5 1.5 0 0 1 9.5 4h5A1.5 1.5 0 0 1 16 5.5V7" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <span class="facts__k">Work</span><span class="facts__v">Backend Developer</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M5 5c4 3 4 11 0 14M19 5c-4 3-4 11 0 14" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <span class="facts__k">Sport</span><span class="facts__v">Loves tennis</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 9h13v4a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z" stroke="currentColor" stroke-width="1.6"/><path d="M17 10h2.2a2.3 2.3 0 0 1 0 4.6H17" stroke="currentColor" stroke-width="1.6"/><path d="M8 3.5c-.6.8-.6 1.7 0 2.5M12 3.5c-.6.8-.6 1.7 0 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span class="facts__k">Coffee</span><span class="facts__v">Latte</span></li>
+        <li><span class="facts__ico">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 4l1.5 4M18 4l-1.5 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M6 8c-1 2-1 5 0 7 1.2 2.4 3.4 4 6 4s4.8-1.6 6-4c1-2 1-5 0-7l-2 2c-1.2-.8-2.6-1-4-1s-2.8.2-4 1L6 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 14h.01M14 14h.01M12 16l-1 1h2l-1-1Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="facts__k">Loves</span><span class="facts__v">Animals, esp. cats</span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- ===================== MY WORLD ===================== -->
+<section class="world" id="world">
+  <div class="wrap">
+    <p class="eyebrow">A few favorite things</p>
+    <h2 class="section-title">My World</h2>
+    <div class="cards3">
+      <article class="pcard">
+        <div class="pcard__img"><img src="assets/art.jpeg" alt="A Starry Night painting on an easel" /></div>
+        <span class="badge badge--olive">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2 0-1.4 1-2 2.2-2H18a3 3 0 0 0 3-3c0-5-4-9-9-9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7.5" cy="11" r="1" fill="currentColor"/><circle cx="10.5" cy="7.5" r="1" fill="currentColor"/><circle cx="15" cy="8" r="1" fill="currentColor"/></svg>
+        </span>
+        <h3>Art</h3>
+        <p>Painting with watercolor and acrylics. Some evenings just call for a canvas.</p>
+      </article>
+
+      <article class="pcard">
+        <div class="pcard__img"><img src="assets/travel.jpg" alt="Ellie in Times Square, New York" /></div>
+        <span class="badge badge--terra">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 13l16-6-6 16-2.5-6.5L4 13Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Travel</h3>
+        <p>Exploring new countries and hidden cafés. Passport always within reach.</p>
+      </article>
+
+      <article class="pcard">
+        <div class="pcard__img"><img src="assets/coffee.jpeg" alt="A flat white and almond croissant" /></div>
+        <span class="badge badge--olive">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 9h13v4a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z" stroke="currentColor" stroke-width="1.6"/><path d="M17 10h2.2a2.3 2.3 0 0 1 0 4.6H17" stroke="currentColor" stroke-width="1.6"/><path d="M8 3.5c-.6.8-.6 1.7 0 2.5M12 3.5c-.6.8-.6 1.7 0 2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Craft Coffee</h3>
+        <p>Finding the city’s best coffee shops. Good beans, good people, good talks.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HAPPY GRID ===================== -->
+<section class="happy" id="fun">
+  <div class="wrap">
+    <h2 class="section-title">Things That Make Me Happy</h2>
+    <span class="rule rule--center"></span>
+    <div class="happy__grid">
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M3 9l9-5 9 5M5 9v9m14-9v9M3 20h18M9 12v4M12 12v4M15 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Museums</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M2 20h20L14 6l-3.5 6-2-3L2 20Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 15.5l2-3 2 3.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span><span>Nature walks</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2 2 2 0 0 0 0 4 2 2 0 0 1-2 2H5a2 2 0 0 1-2-2 2 2 0 0 0 0-4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 6.5v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="1.6 2.4"/></svg></span><span>Live theatre</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5"/><path d="M6 6c3.5 2.5 3.5 9.5 0 12M18 6c-3.5 2.5-3.5 9.5 0 12" stroke="currentColor" stroke-width="1.5"/></svg></span><span>Tennis</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M5 16.5l1.4-4.7A2 2 0 0 1 8.3 10.3h7.4a2 2 0 0 1 1.9 1.5L19 16.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M3.5 16.5h17a.5.5 0 0 1 .5.5v1.5a1 1 0 0 1-1 1h-1M6 19.5H4a1 1 0 0 1-1-1V17a.5.5 0 0 1 .5-.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7.5" cy="17.2" r="1.5" stroke="currentColor" stroke-width="1.5"/><circle cx="16.5" cy="17.2" r="1.5" stroke="currentColor" stroke-width="1.5"/></svg></span><span>Road trips</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5c2-1 5-1 8 1v13c-3-2-6-2-8-1V5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M20 5c-2-1-5-1-8 1v13c3-2 6-2 8-1V5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span><span>Bookstores</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M7 15.5a3.5 3.5 0 0 1-1-6.9A4 4 0 0 1 12.2 4.6 4 4 0 0 1 18 8.6a3.5 3.5 0 0 1-1 6.9v0H7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 15.5V19h10v-3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Cooking together</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M9 18V5l11-2v13" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="16" r="3" stroke="currentColor" stroke-width="1.5"/></svg></span><span>Music</span></div>
+      <div class="hitem"><span class="hitem__ico"><svg viewBox="0 0 24 24" fill="none"><path d="M6 4l1.5 4M18 4l-1.5 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M6 8c-1 2-1 5 0 7 1.2 2.4 3.4 4 6 4s4.8-1.6 6-4c1-2 1-5 0-7l-2 2c-1.2-.8-2.6-1-4-1s-2.8.2-4 1L6 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9.5 13h.01M14.5 13h.01M12 15l-1 1h2l-1-1Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Cats</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VALUES ===================== -->
+<section class="values" id="values">
+  <div class="wrap">
+    <p class="eyebrow">The things that matter</p>
+    <h2 class="section-title">What I Value</h2>
+    <p class="section-lead">I’m looking for a partner who shares these, in themselves and in how we’d
+      grow together.</p>
+
+    <div class="vgrid">
+      <article class="vcard">
+        <span class="badge badge--peach"><svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.35-7-9.5A3.5 3.5 0 0 1 12 7a3.5 3.5 0 0 1 7 3.5C19 15.65 12 20 12 20Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <h3>Kindness</h3>
+        <p>Someone gentle, empathetic, and emotionally available.</p>
+      </article>
+      <article class="vcard">
+        <span class="badge badge--peach"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/></svg></span>
+        <h3>Stability</h3>
+        <p>A fulfilling career, ambition, and a sense of responsibility.</p>
+      </article>
+      <article class="vcard">
+        <span class="badge badge--peach"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2 0-1.4 1-2 2.2-2H18a3 3 0 0 0 3-3c0-5-4-9-9-9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7.5" cy="11" r="1" fill="currentColor"/><circle cx="15" cy="8" r="1" fill="currentColor"/></svg></span>
+        <h3>Creativity</h3>
+        <p>An appreciation for art, music, design, culture, and beauty.</p>
+      </article>
+      <article class="vcard">
+        <span class="badge badge--peach"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 14c1 1.4 2.2 2 3.5 2s2.5-.6 3.5-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="10" r="1" fill="currentColor"/><circle cx="15" cy="10" r="1" fill="currentColor"/></svg></span>
+        <h3>Playfulness</h3>
+        <p>Someone who laughs easily and doesn’t take themselves too seriously.</p>
+      </article>
+      <article class="vcard">
+        <span class="badge badge--peach"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21c0-6 3-9 8-9-1 5-4 7-8 7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 21c0-5-2.5-8-7-8 1 4.5 3.5 6.5 7 6.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 21v-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+        <h3>Growth</h3>
+        <p>Curious, self-aware, and always learning, together and apart.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GREEN FLAGS ===================== -->
+<section class="flags" id="flags">
+  <div class="wrap">
+    <h2 class="section-title section-title--light">Relationship Green Flags</h2>
+    <ul class="flags__list">
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Communicates directly</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Makes plans</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Loves adventures</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Supports each other’s hobbies</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Emotionally mature</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wants a long-term relationship</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Can laugh during difficult moments</li>
+      <li><span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Curious about the world</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================== FOOTER CTA ===================== -->
+<footer class="cta" id="meet">
+  <p class="cta__foot">Made with curiosity &amp; a very good latte · Toronto</p>
+</footer>
+
+<!-- ===================== CONNECT MODAL ===================== -->
+<div class="modal" id="connect">
+  <a href="#about" class="modal__backdrop" aria-label="Close"></a>
+  <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="connect-title">
+    <a href="#about" class="modal__close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </a>
+    <p class="eyebrow" style="text-align:left;margin:0;">Let’s meet</p>
+    <h2 class="modal__title" id="connect-title">Say hi <span>👋</span></h2>
+    <p class="modal__sub">Leave your details and I’ll be in touch. No pressure, just good conversation.</p>
+
+    <!-- Replace YOUR_FORM_ID with your Formspree endpoint id (formspree.io → New form) -->
+    <form class="cform" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label class="cfield">
+        <span>Name</span>
+        <input type="text" name="name" placeholder="Your name" required />
+      </label>
+      <label class="cfield">
+        <span>Phone number</span>
+        <input type="tel" name="phone" placeholder="+1 (___) ___-____" required />
+      </label>
+      <label class="cfield">
+        <span>Instagram</span>
+        <input type="text" name="instagram" placeholder="@yourhandle" required />
+      </label>
+      <input type="hidden" name="_subject" value="New hello from your portfolio ✨" />
+      <button type="submit" class="btn btn--solid cform__submit">Send it my way
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
